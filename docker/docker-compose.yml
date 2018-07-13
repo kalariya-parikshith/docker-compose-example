@@ -1,0 +1,10 @@
+version: '2'
+services:
+  hello-world:
+    build: ./HelloWorld
+    ports:
+      -  "80:80"
+  python-hello:
+    build: ./PythonHello
+    ports:
+      -   "81:80"
